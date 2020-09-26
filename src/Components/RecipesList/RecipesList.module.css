@@ -1,0 +1,72 @@
+.recipesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.singleRecipeWrapper {
+  width: 300px;
+  margin: 10px 8px 10px 8px;
+  border: 1px solid grey;
+  border-radius: 10px 10px 5px 5px;
+  cursor: pointer;
+  list-style-type: none;
+  height: 400px;
+}
+
+.singleRecipeWrapper:hover {
+  opacity: 0.5;
+}
+
+.singleRecipeWrapper img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  /* bez tego obrazek wystaje poza li */
+}
+
+.dishDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  font-family: "Lato", sans-serif;
+  height: 64px;
+  color: black;
+}
+
+.recipeTime {
+  color: grey;
+  font-weight: 300;
+}
+
+.recipeTitle {
+  display: -webkit-box;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  justify-self: flex-start;
+  color: grey;
+}
+
+button {
+  height: 30px;
+  width: 100%;
+  color: white;
+  background-color: lightgreen;
+  border: none;
+  border-top: 1px solid grey;
+  border-radius: 0 0 5px 5px;
+  font-size: 17px;
+}
+
+button:hover {
+  cursor: pointer;
+}

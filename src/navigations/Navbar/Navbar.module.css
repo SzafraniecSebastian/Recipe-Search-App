@@ -1,0 +1,20 @@
+.menuWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 30px;
+}
+
+a {
+  color: darkgrey;
+}
+
+.activeNavLink {
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid black;
+}

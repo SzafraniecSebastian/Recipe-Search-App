@@ -1,0 +1,21 @@
+.aboutMainWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContentWrapper {
+  width: 85%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.aboutParagraph {
+  color: grey;
+  text-align: center;
+  margin: 5px 0 5px 0;
+}

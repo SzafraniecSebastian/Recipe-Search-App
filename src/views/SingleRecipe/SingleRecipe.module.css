@@ -1,0 +1,64 @@
+.singleRecipeMainWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singleRecipeContentWrapper {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToAppLink {
+  font-size: 20px;
+  display: flex;
+  align-self: flex-start;
+  margin: 0 0 9px 18px;
+}
+
+.backIcon {
+  height: 31px;
+  margin-right: 7px;
+}
+
+.recipeName {
+  margin: 20px 0 40px 0;
+  color: darkgrey;
+}
+
+.img {
+  width: 90%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.clockIcon {
+  height: 23px;
+}
+
+.readyTimeWrapper {
+  display: flex;
+  margin: 10px 0 20px 0;
+}
+
+.readyTimeWrapper p {
+  color: grey;
+}
+
+.recipeDescription {
+  width: 85%;
+  max-width: 600px;
+  text-align: justify;
+  color: grey;
+}
+
+.goToRecipeButton {
+  padding: 0 15px 0 15px;
+  border-radius: 5px;
+  border-top: none;
+  margin: 20px 0 50px;
+  color: white;
+}
